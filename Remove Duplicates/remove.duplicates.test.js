@@ -15,3 +15,7 @@ test("Test the removal of duplicates from array using JavaScript native function
 test("Test the removal of duplicates from array using two pointers", () => {
     expect(removeDuplicates(array,2)).toEqual(cleansedArray);
 });
+
+test("Test the removal of duplicates from array using brute force and javascript approach", () => {
+    expect(removeDuplicates(array,0)).toEqual(cleansedArray);
+});
